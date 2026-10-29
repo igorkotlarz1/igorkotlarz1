@@ -85,6 +85,28 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🐷 Skarbonka
+**Local-first AI for settling household expenses.** Import a bank CSV, and rules, ML and a local LLM categorise the spending, then turn it into a settlement report. No transaction ever reaches a cloud AI.
+
+`FastAPI` `PostgreSQL + pgvector` `Ollama` `React`
+
+[→ igorkotlarz1/skarbonka](https://github.com/igorkotlarz1/skarbonka)
+
+</td>
+<td width="50%" valign="top">
+
+### 🚶 Walk Cycle EDA
+**Does cognitive load erase gait differences?** Motion-capture data from autistic and control walkers, analysed with non-parametric tests and effect sizes. Under a Stroop task the differences mostly disappear.
+
+`R` `tidyverse` `Mann–Whitney U` `Cohen's d`
+
+[→ igorkotlarz1/Walk-cycle-EDA](https://github.com/igorkotlarz1/Walk-cycle-EDA)
+
+</td>
+</tr>
 </table>
 
 ## 🧰 Payload
