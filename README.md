@@ -70,24 +70,6 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 <tr>
 <td width="50%" valign="top">
 
-### 🗺️ GIS → Neo4j + PostGIS ETL
-**A data-warehousing pipeline** that loads GIS data into a graph and a spatial database. It has a gateway-style extract layer, 15 validation rules with error, warning and info severities, and idempotent loads. Everything runs in Docker Compose.
-
-`Python` `Neo4j` `PostGIS` `Docker` `ETL`
-
-</td>
-<td width="50%" valign="top">
-
-### 📡 Advertising-agency REST API
-**Spring Boot + JPA backend** for billboards, displays, ads, clients and invoices. Filtering happens in JPQL rather than in memory, HATEOAS links are used only where they earn their place, and records are soft-deleted.
-
-`Java` `Spring Boot` `JPA` `HATEOAS`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 🐷 Skarbonka
 **Local-first AI for settling household expenses.** Import a bank CSV, and rules, ML and a local LLM categorise the spending, then turn it into a settlement report. No transaction ever reaches a cloud AI.
 
