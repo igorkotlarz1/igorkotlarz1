@@ -63,7 +63,7 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 
 `Python` `Flask` `Forecasting` `REST`
 
-[→ Quantum-Guesswork/demo](https://github.com/Quantum-Guesswork/demo)
+[→ Kodies-Dev/Solar-Sight](https://github.com/Kodies-Dev/Solar-Sight)
 
 </td>
 </tr>
