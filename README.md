@@ -70,6 +70,16 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 <tr>
 <td width="50%" valign="top">
 
+### 🛰️ HYPERVIEW Challenge
+**Soil chemistry from 150 spectral bands.** P, K, Mg and pH estimated from hyperspectral field patches (ESA Φ-lab challenge). The pipeline uses mask-aware smoothing, spectral derivatives, per-target feature selection and leak-free repeated CV.
+
+`Python` `scikit-learn` `XGBoost` `Remote Sensing`
+
+[→ igorkotlarz1/io-hyperview-challenge](https://github.com/igorkotlarz1/io-hyperview-challenge)
+
+</td>
+<td width="50%" valign="top">
+
 ### ✋ Gesture LED Control
 **Lights that follow your hand.** A webcam and MediaPipe track 21 hand landmarks, a gesture state machine turns pinches and raised fingers into brightness and RGB colour, and MQTT carries the result to an ESP32 driving the LEDs.
 
@@ -78,6 +88,8 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 [→ igorkotlarz1/gesture-led-control](https://github.com/igorkotlarz1/gesture-led-control)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🐷 Skarbonka
@@ -88,9 +100,7 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 [→ igorkotlarz1/skarbonka](https://github.com/igorkotlarz1/skarbonka)
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 🚶 Walk Cycle EDA
 **Does cognitive load erase gait differences?** Motion-capture data from autistic and control walkers, analysed with non-parametric tests and effect sizes. Under a Stroop task the differences mostly disappear.
