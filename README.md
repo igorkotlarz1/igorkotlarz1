@@ -70,6 +70,16 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 <tr>
 <td width="50%" valign="top">
 
+### ✋ Gesture LED Control
+**Lights that follow your hand.** A webcam and MediaPipe track 21 hand landmarks, a gesture state machine turns pinches and raised fingers into brightness and RGB colour, and MQTT carries the result to an ESP32 driving the LEDs.
+
+`Computer Vision` `MediaPipe` `MQTT` `ESP32`
+
+[→ igorkotlarz1/gesture-led-control](https://github.com/igorkotlarz1/gesture-led-control)
+
+</td>
+<td width="50%" valign="top">
+
 ### 🐷 Skarbonka
 **Local-first AI for settling household expenses.** Import a bank CSV, and rules, ML and a local LLM categorise the spending, then turn it into a settlement report. No transaction ever reaches a cloud AI.
 
@@ -78,7 +88,9 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 [→ igorkotlarz1/skarbonka](https://github.com/igorkotlarz1/skarbonka)
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
 ### 🚶 Walk Cycle EDA
 **Does cognitive load erase gait differences?** Motion-capture data from autistic and control walkers, analysed with non-parametric tests and effect sizes. Under a Stroop task the differences mostly disappear.
