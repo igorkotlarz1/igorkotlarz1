@@ -92,6 +92,16 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 <tr>
 <td width="50%" valign="top">
 
+### 📦 Olist Review Risk
+**Spotting 1–3★ reviews before they are written.** 91k Brazilian e-commerce orders run through a PostgreSQL feature view, then an XGBoost + Optuna model with a Streamlit SHAP dashboard. A leakage audit cut a flattering F1 of 0.46 down to an honest score, then time-aware seller-reputation features won part of it back.
+
+`Python` `PostgreSQL` `XGBoost` `SHAP`
+
+[→ igorkotlarz1/Olist-reviews](https://github.com/igorkotlarz1/Olist-reviews)
+
+</td>
+<td width="50%" valign="top">
+
 ### 🐷 Skarbonka
 **Local-first AI for settling household expenses.** Import a bank CSV, and rules, ML and a local LLM categorise the spending, then turn it into a settlement report. No transaction ever reaches a cloud AI.
 
@@ -100,6 +110,8 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 [→ igorkotlarz1/skarbonka](https://github.com/igorkotlarz1/skarbonka)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🚶 Walk Cycle EDA
