@@ -97,7 +97,7 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 
 `Python` `PostgreSQL` `XGBoost` `SHAP`
 
-[→ igorkotlarz1/Olist-reviews](https://github.com/igorkotlarz1/Olist-reviews)
+[→ igorkotlarz1/olist-bad-review-risk](https://github.com/igorkotlarz1/olist-bad-review-risk)
 
 </td>
 <td width="50%" valign="top">
