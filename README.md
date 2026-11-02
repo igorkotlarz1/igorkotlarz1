@@ -58,24 +58,24 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 </td>
 <td width="50%" valign="top">
 
-### ☀️ SolarSight
-**Solar PV production forecasting, hackathon-built** at ETHSilesia 2026 (Tauron AI Challenge). I built the Flask backend, the weather-API orchestration and a *what-if* simulation endpoint.
-
-`Python` `Flask` `Forecasting` `REST`
-
-[→ Kodies-Dev/Solar-Sight](https://github.com/Kodies-Dev/Solar-Sight)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 🛰️ HYPERVIEW Challenge
 **Soil chemistry from 150 spectral bands.** P, K, Mg and pH estimated from hyperspectral field patches (ESA Φ-lab challenge). The pipeline uses mask-aware smoothing, spectral derivatives, per-target feature selection and leak-free repeated CV.
 
 `Python` `scikit-learn` `XGBoost` `Remote Sensing`
 
 [→ igorkotlarz1/io-hyperview-challenge](https://github.com/igorkotlarz1/io-hyperview-challenge)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ☀️ SolarSight
+**Solar PV production forecasting, hackathon-built** at ETHSilesia 2026 (Tauron AI Challenge). I built the Flask backend, the weather-API orchestration and a *what-if* simulation endpoint.
+
+`Python` `Flask` `Forecasting` `REST`
+
+[→ Kodies-Dev/Solar-Sight](https://github.com/Kodies-Dev/Solar-Sight)
 
 </td>
 <td width="50%" valign="top">
