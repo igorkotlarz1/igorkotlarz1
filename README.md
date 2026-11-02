@@ -122,6 +122,16 @@ The downstream task: estimating soil trace-element concentrations from hyperspec
 [→ igorkotlarz1/Walk-cycle-EDA](https://github.com/igorkotlarz1/Walk-cycle-EDA)
 
 </td>
+<td width="50%" valign="top">
+
+### ⚡ Sobel SIMD
+**Edge detection in hand-written x64 assembly.** The Sobel operator written twice, as scalar C++ and as SSE assembly that computes 8 pixels per instruction, behind a C# app that benchmarks the two. The assembly runs about 4× faster than plain C++ and comes with a test harness that checks it pixel by pixel and verifies the Windows calling convention.
+
+`x64 ASM` `SSE` `C++` `C#`
+
+[→ igorkotlarz1/Sobel-edge-detection](https://github.com/igorkotlarz1/Sobel-edge-detection)
+
+</td>
 </tr>
 </table>
 
