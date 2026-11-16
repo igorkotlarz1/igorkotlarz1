@@ -16,7 +16,7 @@ igor — CS engineering student @ Silesian University of Technology (Politechnik
        I teach models trained on one sensor to see through another.
 
 $ cat mission.log
-[ NOW  ] final semester · engineering thesis on foundation models for satellite data
+[ NOW  ] final semester · engineering thesis: foundation models compressed for on-board satellite hardware
 [ NOW  ] FieldEye — drone-borne crop anomaly detection (RPi + FPGA + camera)
 [ NEXT ] thesis defense · 02/2027
 [ NEXT ] MSc in ML / computer vision / Earth observation
@@ -26,21 +26,25 @@ $ cat mission.log
 ## 🛰️ Current mission
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/spectrum-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/spectrum-light.svg">
-  <img alt="Sentinel-2's 13 bands versus ~240 hyperspectral bands" src="./assets/spectrum-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/mission-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/mission-light.svg">
+  <img alt="Pipeline: foundation model → compression → INT8 model → Vitis AI → KP Labs Leopard" src="./assets/mission-dark.svg" width="100%">
 </picture>
 
-Geospatial foundation models like **TerraMind** and **Prithvi** are pretrained on multispectral imagery with ~13 bands. Real hyperspectral sensors (PRISMA, the HYPERVIEW 2 challenge data) deliver 100–240. My thesis, *Adaptation of foundation models to satellite data analysis*, compares ways to bridge that gap:
+**Foundation Models in Orbit: Quantization, Pruning and Knowledge Distillation for FPGA-Based Space Hardware** *(working title)*
 
-| Strategy | Idea |
+Geospatial foundation models like **TerraMind** and **Prithvi-EO-2.0** are trained on the ground with hundreds of millions of parameters. Satellites have watts and an FPGA. My thesis compresses both models and runs them on the **KP Labs Leopard**, a space-grade computer built on a Zynq UltraScale+ with a Vitis AI DPU, for flood segmentation on Sen1Floods11:
+
+| Method | Idea |
 |---|---|
-| **Band selection** | pick the hyperspectral channels closest to what the model already knows |
-| **Spectral dimensionality reduction** | compress 240 bands into a pretrained-friendly space |
-| **Channel adapters** | a small learned module in front of a frozen backbone |
-| **Input-layer fine-tuning** | let the patch embedding learn the new spectrum |
+| **Post-training quantization** | convert the trained model to INT8 with a small calibration set |
+| **Quantization-aware training** | fine-tune with simulated INT8 so the model adapts to it |
+| **Pruning** | remove the weights, channels and heads that contribute least |
+| **Knowledge distillation** | train a small student to reproduce the large teacher |
 
-The downstream task: estimating soil trace-element concentrations from hyperspectral + Sentinel-2 data. Prior to that, on the first HYPERVIEW challenge, our team got strong results with classical ML on spectral derivatives, which is a useful reminder that a big model has to earn its place.
+Each variant is measured for water IoU, size, latency, memory and power on the same Leopard unit. Target: IEEE IGARSS 2027.
+
+[→ igorkotlarz1/fm-4-eo-thesis](https://github.com/igorkotlarz1/fm-4-eo-thesis)
 
 ## 🚀 Flight log
 
